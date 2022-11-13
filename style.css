@@ -1,12 +1,46 @@
-.heading{
-    font-size: 21px;
-    width: 100%;
-    margin: 0px;
-   background-color: orange;
+body{
+    background-size:cover;
+    
 }
-.note {
-    font-size: 20px;
+.note{
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+}
+b{
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+h1{
     color: black;
-   background-color:orange;
+    font-family: monospace;
 }
-
+.heading{
+     height: 120px;
+     width: 1250px;   
+     background-image: linear-gradient(pink, pink,rgb(193, 28, 173) );
+     border:3px solid white;
+     box-shadow: 10px 10px 8px 8px white;
+     border-radius: 20px;
+     }
+     #lbl_song_name{
+         height:50px;
+         border:5px solid white;
+         border-radius: 10px;
+         
+     }
+     #song{
+         height:42px;
+     }
+#play{
+    color: white;
+    background: linear-gradient(#e66465, #9198e5);
+    height:35px;
+    border-radius: 5px;
+   
+}
+canvas{
+    border:5px solid black;
+    border-radius: 20px;
+    margin-top: 220px;
+}
